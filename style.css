@@ -54,12 +54,14 @@ table {
 .box-container {
   width: 500px;
   min-height: 500px;
+  position: relative;
   background-color: #fdf7c9;
 }
 
 .box {
   width: 50px;
   min-height: 50px;
+  position: absolute;
   background-color: #ff0000;
   text-indent: -9999px;
 }
